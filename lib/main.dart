@@ -81,7 +81,7 @@ class MyHomePageState extends State<MyHomePage> {
               TextButton(
                 child: const Text(
                   'Connect',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Color.fromARGB(255, 68, 56, 237)),
                 ),
                 onPressed: () async {
                   widget.flutterBlue.stopScan();
